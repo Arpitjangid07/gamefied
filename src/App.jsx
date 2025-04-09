@@ -16,6 +16,7 @@ const App = () => {
           <MainContent />
           <Editor />
           <Footer />
+        <AuthPage />
         </div>
       </div>
     </div>
