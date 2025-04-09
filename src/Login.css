@@ -1,0 +1,192 @@
+/* Container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f5f7;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Auth Box */
+.auth-box {
+  width: 450px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Tabs */
+.auth-tabs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab-btn {
+  width: 50%;
+  padding: 12px;
+  font-size: 16px;
+  color: #6b7280;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.tab-btn.active {
+  color: #2c5282;
+  border-bottom: 3px solid #2c5282;
+  font-weight: bold;
+}
+
+.tab-btn:hover {
+  background: #f1f1f1;
+}
+
+/* Content */
+.auth-content {
+  padding: 30px;
+}
+
+/* Google Button */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.google-btn:hover {
+  background: #f1f1f1;
+}
+
+.google-icon {
+  margin-right: 10px;
+}
+
+/* Separator */
+.separator {
+  text-align: center;
+  margin: 20px 0;
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* Input fields */
+.input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.input:focus {
+  border-color: #2c5282;
+  outline: none;
+}
+
+/* Password Wrapper */
+.password-wrapper {
+  position: relative;
+}
+
+.eye-btn {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Forgot Password */
+.forgot-password {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.forgot-password a {
+  color: #2c5282;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Terms & Conditions */
+.terms {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.terms input {
+  margin-right: 10px;
+}
+
+.terms label {
+  font-size: 14px;
+  color: #555;
+}
+
+.terms a {
+  color: #2c5282;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2c5282;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #1e3a5f;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer a {
+  color: #2c5282;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

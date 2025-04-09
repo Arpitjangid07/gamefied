@@ -1,0 +1,45 @@
+.main-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #555;
+    margin: 20px 0 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  

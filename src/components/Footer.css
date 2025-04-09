@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #f3f3f3;
+    border-top: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .submit-btn {
+    background: #28a745;
+    border-radius: 5px;
+  }
+  
+  .next-btn {
+    background: #007bff;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

@@ -1,0 +1,209 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  body{
+    background: #f0f0f0;
+  }
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .auth-box {
+    background: #fff;
+    width: 450px;         /* 🔥 Fixed width */
+    height: 580px;        /* 🔥 Fixed height */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: box-shadow 0.3s;  /* Smooth hover effect */
+    overflow: hidden;     /* Prevents content overflow */
+  }
+  
+  /* Hover effect */
+  .auth-box:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Tabs */
+  .auth-tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .tab:hover {
+    color: #007bff;
+  }
+  
+  .active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Google Button */
+  .google-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #444;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .google-btn:hover {
+    background: #f0f0f0;
+  }
+  
+  .google-icon {
+    font-size: 18px;
+  }
+  
+  /* Divider */
+  .divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #aaa;
+  }
+  
+  /* Inputs */
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Password Field */
+  .password-container {
+    position: relative;
+  }
+  
+  .eye-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .eye-btn:hover {
+    color: #007bff;
+  }
+  
+  /* Forgot Password */
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Terms and Conditions */
+  .terms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .terms label a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms label a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Support Section */
+  .support {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .support a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .support a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .auth-box {
+      width: 95%;
+      height: 600px; /* Adjusted for smaller screens */
+      padding: 20px;
+    }
+  }
+  
+
+  
